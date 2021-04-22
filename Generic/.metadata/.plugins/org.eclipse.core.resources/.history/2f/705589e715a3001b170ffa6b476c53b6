@@ -1,0 +1,16 @@
+
+public class DemoGeneric {
+	public static void main(String[] args) {
+		Dictionary<String, String> d = new Dictionary<String, String>("Student", "Học sinh");
+        String english = d.getKey();
+        String vietnamese = d.getValue();
+        System.out.println(english + ": " + vietnamese); 
+        /*------- Demo extend ------*/
+        Book<String, String> l = new Book<String, String>("Student", "Học sinh");
+        String english1 = l.getKey();
+        String vietnamese1 = l.getValue();
+        System.out.println("Demo generics extend: ");
+        System.out.println(english1 + ": " + vietnamese1);
+        
+	}
+}

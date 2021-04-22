@@ -1,0 +1,12 @@
+import java.util.HashMap;
+
+public class DemoHashMap {
+	public static void main(String[] args) {
+		HashMap<String, Student> hashMap = new HashMap<String, Student>();
+		System.out.println("------ Adding students ---------");
+		hashMap.put("1", new Student("A", 12, "Hanoi"));
+        hashMap.put(null, new Student("C", 13, "Hanoi"));
+        hashMap.put("2", null);
+        hashMap.put("4", new Student("D", 14, "Hanoi"));
+	}
+}

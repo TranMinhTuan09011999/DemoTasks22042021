@@ -1,0 +1,11 @@
+
+public class DemoGeneric {
+	public static void main(String[] args) {
+		Dictionary<String, String> d = new Dictionary<String, String>("Student", "Học sinh");
+        String english = d.getKey();
+        String vietnamese = d.getValue();
+        System.out.println(english + ": " + vietnamese); 
+        /*------- Demo extend ------*/
+        
+	}
+}

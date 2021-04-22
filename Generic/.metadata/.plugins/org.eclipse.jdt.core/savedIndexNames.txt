@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\PC\Documents\ITJS-TASK\Generic\.metadata\.plugins\org.eclipse.jdt.core
+3423253026.index

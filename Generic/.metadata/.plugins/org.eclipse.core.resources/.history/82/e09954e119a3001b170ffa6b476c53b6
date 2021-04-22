@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class BookInterface<T> implements writer<T>{
+	Scanner sc = new Scanner(System.in);
+	
+	@Override
+	public void update(T obj) {
+		T.add()
+		
+	}
+
+	@Override
+	public void delete(T obj) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void write(T obj) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

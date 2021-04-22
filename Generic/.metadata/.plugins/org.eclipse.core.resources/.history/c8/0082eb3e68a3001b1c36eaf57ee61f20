@@ -1,0 +1,4 @@
+
+public interface writer<T> {
+    void write(T obj);
+}

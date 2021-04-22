@@ -1,0 +1,4 @@
+
+public class BookInterface<T> implements writer<T>{
+	
+}
